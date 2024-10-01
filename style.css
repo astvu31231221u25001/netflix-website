@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+   background: url(images/IN-en-20240916-TRIFECTA-perspective_72df5d07-cf3f-4530-9afd-8f1d92d7f1a8_large.jpg);
+    background-size: cover;
+    background-position:center ;
+    padding:10px 8%;
+    position: relative;
+}
+.head{
+    padding: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border:0 ;
+    outline: 0;
+    background: #db0001 ;
+    color: #fff;
+    padding:7px 20px ;
+    font-size:12px ;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn1{
+    display: inline-block;
+    align-items: center;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #9E9E9E;
+    padding: 7px 10px ;
+    border-radius: 5px;
+}
+.language-btn1 option{
+    color: #000;
+}
+.language-btn img{
+  width: 10px;
+  margin-left: 10px;
+  background: #fff;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top:100px ;
+}
+.header-content h1{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600;
+    max-width: 650px; 
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.headtag{
+    margin: 50px;
+    padding: 10px 20px;
+
+}
+.headtag h2{
+    padding: 20px 5px;   
+}
+.headtag p{
+    margin: 15px;
+    padding: 0px;
+    color: #9E9E9E;
+}
+.email-signup{
+    /* background: #fff; */
+    border-radius:4px ;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin: 0 5px;
+    width: 100%;
+    height: 38px;
+    background-color: #1b1b1b;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.images ul{
+    display: flex;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    height: inherit;
+    overflow-x: scroll;
+}
+.images ul::-webkit-scrollbar{
+   display: none;
+}
+.images ul li{
+    margin: 0 10px;
+    list-style: none;
+    position: relative;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+.container{
+    height: auto;
+    min-height: 60vh;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.item{
+    flex-grow: 1;
+    width: 200px;
+    height: 300px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    margin: 10px;
+    padding: 3px;
+    border-radius: 15px;
+    position: relative;
+  }
+  .item p{
+    color: #9E9E9E;
+  }
+  .container p{
+    margin: 10px;
+    padding: 0px;
+  }
+.images ul li h1{
+    color: black;
+    -webkit-text-stroke: 2px #fff;
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+}
+.item img{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+}
+.container1{
+        height: auto;
+        width: 100%;
+        border: 2px solid black;
+       
+}
+.box{
+        width: 90%;
+        height: 100px;
+        background-color: rgb(65, 65, 65);
+        border: 2px solid rgb(21, 22, 21);
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 5px;
+}
+.email-sign button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.email-sign{
+    width: 70%;
+    margin: auto;
+    border-radius:4px ;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-sign input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin: 0 5px;
+    width: 100%;
+    height: 38px;
+    background-color: #1b1b1b;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.head-content1{
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    /* margin-top:100px ;*/
+    padding: 1.5rem;
+
+}
+footer{
+   width: 100%;
+   height: auto; 
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer-col{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.footer-col ul{
+    flex-grow: 1;
+    min-width: 180px;
+    margin: 10px 0;
+}
+.footer-col li{
+    list-style: none;
+}
+
+.footer-col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footerrow{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.language-btn2{
+    color: #fff;
+    margin: 10px 60px;
+    display: inline-block;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #777;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.language-btn2 option{
+    color: black;
+}
+.copyright-text{
+    color: #777;
+    margin: 20px;
+    padding: 15px 40px;
+}
+@media only screen and (max-width:850px){
+    .item{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:600px){
+    .logo{
+        width: 100px;
+    }
+    nav button{
+        padding: 5px 10px;
+    }
+    nav .language-btn{
+        padding: 4px 8px;
+    }
+    .header-content{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+        font-size: small;
+        margin: 0px;
+        padding: 150px 20px;
+    }
+    .header-content h1{
+        font-size: 20px;
+    }
+    .email-signup {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .email-signup button{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .email-sign {
+        width: 100%;
+        row-gap: 10px;
+        flex-direction: column;
+    }
+    .headtag{
+        padding: 10px 0px;
+    }
+}

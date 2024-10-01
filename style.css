@@ -79,7 +79,6 @@ nav button{
 .headtag{
     margin: 50px;
     padding: 10px 20px;
-
 }
 .headtag h2{
     padding: 20px 5px;   
@@ -187,16 +186,18 @@ nav button{
 }
 .container1{
         height: auto;
-        width: 100%;
+        width: 90%;
+        margin: auto;
         border: 2px solid black;
        
 }
 .box{
-        width: 90%;
+        width: 100%;
         height: 100px;
         background-color: rgb(65, 65, 65);
         border: 2px solid rgb(21, 22, 21);
-        margin: 10px auto;
+        /* margin: 10px auto; */
+        margin: 5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -302,8 +303,16 @@ footer{
         width: 300px;
         height: 200px;
     }
+    .headtag{
+        margin: 25px;
+    }
+    .container1{
+        width: 100%;
+        
+    }
 }
 @media only screen and (max-width:600px){
+    
     .logo{
         width: 100px;
     }
@@ -338,6 +347,6 @@ footer{
         flex-direction: column;
     }
     .headtag{
-        padding: 10px 0px;
+        padding: 5px;
     }
 }
